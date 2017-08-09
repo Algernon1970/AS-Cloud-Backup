@@ -26,7 +26,7 @@ Public Class Form1
                     csvReader.ReadHeaderRecord()
                     While csvReader.HasMoreRecords
                         dr = csvReader.ReadDataRecord
-                        uList.Add(dr("Username"))
+                        uList.Add(dr("Name"))
                     End While
                 End Using
             End Using
